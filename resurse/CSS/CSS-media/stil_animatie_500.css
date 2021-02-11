@@ -1,0 +1,31 @@
+@media screen and (max-width: 500px){
+	
+h1{
+	width: auto;
+	height:4vh;
+	padding-left:10px;
+	letter-spacing:0.25em;
+	font-size:0.75em;
+}
+
+.headform{
+	padding-left:5px;
+	padding-right:5px;
+}
+
+.headform p{
+	margin-bottom:0vh;
+	font-size:17.6px;
+}
+
+.headform input{
+	max-width: 75px;
+	max-height: 17px;
+}
+
+.headform input[type=submit] {
+	font-size:11px;
+	max-height: 16px;
+}
+
+}

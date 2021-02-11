@@ -1,0 +1,43 @@
+.formular{
+	margin-left:80px;
+	margin-top:20px;
+}
+
+.formular label{
+	color:white;
+}
+
+.formular input{
+	min-height: 25px;
+	min-width: 50px;
+	max-width: 290px;
+	border: 1px solid #00FFFF;
+	border-left: 3px solid #008B8B;
+	border-bottom: 3px solid #008B8B;
+	border-radius: 5px;
+}
+
+.formular p{
+	color:white;
+	margin-bottom:20px;
+	font-size:20px;
+}
+ 
+#cf label{
+	display:block;
+	margin-left:60px;
+	font-size:18px;
+ }
+ 
+#cf input{
+	min-height: 18px;
+	min-width: 30px;
+ }
+ 
+.formular input[type=submit] {
+	margin-top: 10px;
+	min-height: 35px;
+	min-width: 100px;
+	margin-left:115px;
+	font-size:15px;
+ }

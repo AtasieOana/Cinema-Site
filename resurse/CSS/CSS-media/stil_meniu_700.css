@@ -1,0 +1,77 @@
+/* Stilizare elemente specifice pagina Meniu pt o latime de maxim 700px */
+
+@media screen and (max-width: 700px) and (min-width: 501px){
+
+table,tr{
+	border:none;
+	padding:0;
+	margin:0;
+	display:block;
+} 
+table{ 
+	width: auto;
+	padding-left:60px;
+	width: 75vw;
+}
+thead{
+    display:none;
+}
+
+td{
+	display:block;
+	border-bottom:none;
+	border-top:none;
+	box-sizing:border-box;
+	text-align:left;
+	width: 75vw;
+}
+table tbody td:nth-child(1):before{
+	content:"Nume: ";
+}
+table tbody td:nth-child(2):before{
+	content:"Mărime: ";
+}
+table tbody td:nth-child(3):before{
+	content:"Mărime: ";
+}
+table tbody td:nth-child(4):before{
+	content:"Mărime: ";
+}
+table tbody td:nth-child(5):before{
+	content:"Preț: ";
+}
+
+tbody tr:nth-of-type(odd) td{
+	border-bottom-style: solid;
+	border-bottom-color: #FF4500;
+}
+
+tbody tr:nth-of-type(even) td{
+	border-bottom-style: solid;
+	border-bottom-color: #6A5ACD;
+}
+table tr:first-child  td:first-child{
+	border-top:3px solid white;
+}
+		
+table tr:last-child td:last-child{
+	border-bottom:3px solid white;
+}
+
+td:before{
+	background:#FFA07A;
+	width:20vh;
+	margin-right:0.5em;
+	float:left;
+  	line-height:100%;
+}
+tr{
+	border-bottom: 3px solid white;
+	width: auto;
+}
+
+tbody tr td:nth-of-type(5){
+		border-bottom:none;
+}
+
+}

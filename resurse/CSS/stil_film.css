@@ -1,0 +1,63 @@
+/* Stilizare elemente specifice paginilor filmelor */
+
+.pagd{
+	display:flex;
+	flex-wrap:wrap;
+}
+.det{
+	width:60%;
+	color:white;
+	padding-left:60px;
+	padding-top:30px;
+	line-height:35px;
+	font-family: "Annie Use Your Telescope", cursive;
+	display:flex;
+	flex-wrap:wrap;
+	flex-direction: column;
+	border-left-style: solid;
+	border-left-color:white;
+	border-left-width:5px;
+	margin-top:10px;
+}
+	
+.imf{
+	padding-top:10px;
+	width: 275px ;
+	height:400px; 
+	padding-left:50px;
+	padding-right:60px;
+}
+
+.desc{
+	color:white;
+	padding-top: 20px;
+	margin-left:15px;
+	margin-right:15px;
+	
+}
+.desc>p{
+	text-indent:2.3em;
+	font-family: "EB Garamond", serif;
+	font-size:17px;
+	text-align:justify;
+	
+}
+
+.linkr{
+	font-family: "Arbutus Slab", serif;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    font-size: 18px;
+    letter-spacing: 0.1px;
+	color:white;
+}
+
+	
+.tit_pag{
+	padding-top:10px;
+	font-family: "Bad Script", cursive;
+    font-size: 17px;
+    color: white;
+	padding-left:50px;
+}

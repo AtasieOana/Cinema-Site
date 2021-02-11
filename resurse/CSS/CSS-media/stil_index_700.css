@@ -1,0 +1,35 @@
+/* Stilizare elemente specifice pagina Index pt o latime de maxim 700px */
+
+@media screen and (max-width: 700px) and (min-width: 501px){
+	
+.imagine {
+	display: block;
+	text-align:center;
+	
+}
+#container_home{
+	
+	display:grid;
+	grid-template-columns: auto auto;
+
+}
+#container_home>.imagine:nth-child(1){
+	grid-area: 1/1/2/2;
+}
+#container_home>.imagine:nth-child(2){
+	grid-area: 1/2/2/3;
+}
+#container_home>.imagine:nth-child(3){
+	grid-area: 2/1/3/2;
+}
+#container_home>.imagine:nth-child(4){
+	grid-area: 2/2/3/3;
+}
+.varp1{
+	height:55vw;	
+	padding-left:4vw;
+	display: block;
+	width:40vw;
+}
+
+}

@@ -1,0 +1,26 @@
+/* Stilizare elemente specifice pagina In curand pt o latime maxima de 1120px */
+
+@media screen and (max-width: 1120px) and (min-width: 700px){
+	
+.imgsoon{
+	width: 200px ;
+	height:300px;
+	padding-left:50px;
+	padding-right:50px;
+}
+.imfsoon, .lp{
+	width:auto;
+	font-size:1.5vw;
+}
+.imfsoon{
+	padding-left:45px;
+}
+.incurand{
+	padding-top:20px;
+	font-size: 15px;
+}
+
+#cc>p>a{
+	padding-left:50px;
+}
+}

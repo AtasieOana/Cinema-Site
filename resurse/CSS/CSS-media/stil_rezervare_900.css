@@ -1,0 +1,8 @@
+/* Stilizare elemente specifice pagina Rezervare pt o latime de maxim 900px */
+
+@media screen and (max-width: 900px) and (min-width: 701px){
+
+.arez>span{
+	font-size: 11px;
+}
+}

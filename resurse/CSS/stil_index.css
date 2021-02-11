@@ -1,0 +1,40 @@
+/* Stilizare elemente specifice pagina Index */
+
+.imagine {
+	display: inline-block;
+	margin: 0px;
+}
+
+.varp1{
+	width: 20vw ;
+	height:30vw;
+	padding-top:20px;
+	padding-left: 47px;
+}
+
+.b{
+	text-align:center;
+	padding-top:1em;
+	padding-bottom:1em;
+	font-weight: 300;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 15px;
+	text-decoration: underline;
+}
+
+.b>a{
+	color:white;
+}
+
+#proiect{
+	margin-top:1.5em;
+	font-size: 17px;
+	border: 2px solid white;
+	color:white;
+	text-indent:25px;
+	height:1.5em;
+	background-color:black;
+	vertical-align:middle;
+	width:auto;
+}
+

@@ -1,0 +1,44 @@
+h1{
+	position:relative;
+	letter-spacing:0.2em;
+	font: italic 1.3em cursive;
+}
+
+h1 span{
+	padding-bottom:3px;
+	opacity:0;
+	display: inline-block;
+	animation-name: animate;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-fill-mode: forwards;
+}
+
+
+.headform p{
+	font-size:14px;
+}
+
+.headform input{
+	max-height: 13px;
+}
+
+.headform input[type=submit] {
+	font-size:12px;
+	max-height: 18px;
+}
+
+@keyframes animate{ 
+	0%
+	{
+		opacity:0;
+		transform: rotateY(90deg);
+		filter:blur(5px);
+	}
+	100%
+	{
+		opacity:1;
+		transform: rotateY(0deg);
+		filter:blur(0px);
+	}
+}

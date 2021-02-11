@@ -1,0 +1,15 @@
+/* Stilizare elemente specifice paginilor filmelor pt o latime de maxim 1140px */
+
+@media screen and (max-width: 1140px) and (min-width: 701px){
+.det{
+	width:auto;
+	padding-left:20px;
+	font-size:12px;
+}
+	
+.imf{
+	padding-left:30px;
+	padding-right:20px;
+}
+
+}

@@ -1,0 +1,48 @@
+/* Stilizare elemente specifice pagina In curand pt o latime maxima de 500px */
+
+@media screen and (max-width: 500px){
+	
+.soon{
+	display:block;
+	margin-right:0px;
+}
+
+.imgsoon{
+	padding-right:0px;
+	padding-left:0px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;	
+}
+
+.imfsoon{
+	padding-top:20px;
+	color:white;
+	width:auto;
+	border-left-style: none;
+	border-bottom-style: solid;
+	border-bottom-color:white;
+	border-bottom-width:5px;
+	text-align: center;
+	margin-top:0px;
+	padding-left:0px;
+	font-size:15px;
+}
+
+.soon:nth-of-type(5)>.imfsoon{
+	border-bottom-style: none;
+}
+
+.lp,#cc>p:nth-of-type(2),#cc>p:nth-of-type(3){
+	text-align: center;
+	font-size:15px;
+}
+#cc>p>a{
+	padding-left:0px;
+}
+.incurand{
+	padding-top:20px;
+	font-size: 20px;
+	padding-bottom:20px;
+}
+}

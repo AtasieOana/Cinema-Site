@@ -1,0 +1,25 @@
+/* Stilizare elemente specifice pagina 404 pt o latime maxima de 1150px */
+
+@media screen and (max-width: 1150px) and (min-width: 700px){
+
+#e{
+	display:block;
+}
+
+#e img{
+	margin-left:150px;
+}
+
+#e p{
+	text-indent:50px;
+	padding-top:50px;
+	padding-left:50px;
+	font-size:20px;
+}
+
+#mot{
+	padding-left:140px;
+	padding-top:20px;
+}
+
+}

@@ -1,0 +1,56 @@
+/* Template: */
+#afisare_template{
+	font-size: 15px;
+	word-spacing: 0.4em;
+	margin-left:10px;
+	margin-right:10px;
+	padding-bottom:10px;
+	padding-top:10px;
+	padding-left:5px;
+	display:grid;
+	grid-template-columns: auto auto auto;
+	grid-gap:30px;
+}
+
+.filme_template{
+	font-family: Georgia, serif;
+	color:white;
+	border: 5px solid white;
+	border-image:url("../IMAGINI/border.jpg") 50 round;
+	background-image:url("../IMAGINI/template.jpg");
+	padding:10px;
+	padding-left:20px;
+	
+}
+
+#minim,#sort,#filt,#res,#act,#o_act,#ls,#c,#sort_task1,#sort_task2,#sort_task3{
+	margin-left:71px;
+	margin-top:10px;
+	font-size:17px;
+	margin-bottom:10px;
+	background-color:black;
+	color:white;
+	font-weight: bold;
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:5px;
+	padding-bottom:5px;
+	border-color:white;
+	display:inline;
+	min-width:300px;
+}
+
+#c{
+	margin-left:-28px;
+}
+
+#gen_sterg,#cauta{
+	color:white;
+	font-size:18px;
+	margin-left:100px;
+}
+
+#gen_sterg p,#cauta p{
+	color: white;
+	font-size:16px;	
+}

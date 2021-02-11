@@ -1,0 +1,39 @@
+/* Stilizare elemente specifice pagina Meniu */
+
+th,td{
+	border:3px solid white;
+	padding:7px;
+	color:white;
+	font-size: 20px;
+	}
+
+table{
+	border-collapse:collapse;
+	empty-cells:show;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width:65%;
+	}
+
+table>caption{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 25px;
+	font-weight: bold;
+	color:white;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #A52A2A;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #D2691E;
+}
+
+thead tr {
+  background-color: #FF8C00;
+}
+

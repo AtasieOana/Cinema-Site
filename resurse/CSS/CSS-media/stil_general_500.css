@@ -1,0 +1,62 @@
+/* Stilizare elemente specifice din mai multe pagini pt o latime de maxim 500px */
+
+@media screen and (max-width: 500px){
+
+body,header{
+	width:100%;
+}
+main{
+	padding-bottom: 130px;
+	width: auto;
+}
+footer{
+	width: auto;
+}
+h1{
+	width: auto;
+	height: 3vh;
+	font-size: 17px;
+}
+
+.headform{
+	padding-left:5px;
+	padding-right:5px;
+}
+
+.headform p{
+	margin-bottom:0vh;
+	font-size:16px;
+}
+
+.headform input{
+	max-width: 75px;
+	max-height: 16px;
+}
+
+.headform input[type=submit] {
+	font-size:10px;
+}
+
+.tit{
+	width: auto;
+	height: 3vh;
+	font-size:17px;
+	padding-left:15px;
+	padding-bottom:20px;
+}
+
+.d_p>p,.d_p>ul>li,.par1{
+	text-indent:2em;
+	line-height: 1.5em;
+	font-size: 13px;
+	word-spacing: 0.2em;
+	padding-left:10px;
+	width: auto;
+	padding-right:5px;
+}
+
+ul.menu>li, ul.menu>li>ul.submenu>li{ 
+	font-size:0.5rem;
+}
+
+}

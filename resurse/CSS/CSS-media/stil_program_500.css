@@ -1,0 +1,44 @@
+/* Stilizare elemente specifice pagina Program pt o latime de maxim 500px */
+
+@media screen and (max-width: 500px){
+
+#mainprogram{
+	width: auto;
+}
+.progf{
+	width: auto;
+	display: block;
+	padding-bottom:60px;
+	
+}
+.film_det{
+	display:block;
+	text-align:center;
+}
+
+.rating_icon{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#blu{
+	margin-left:15px;
+}	
+
+.imgpr{
+	padding-right:0px;
+	padding-left:0px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.zi{
+	width:auto;
+}
+
+.film_det>a{
+	padding-top: 10px;	
+}
+
+}

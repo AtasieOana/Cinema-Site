@@ -1,0 +1,36 @@
+/* Stilizare elemente specifice paginilor filmelor pt o latime de maxim 700px */
+
+@media screen and (max-width: 700px) and (min-width: 501px){
+.pagd{
+	display:block;
+}
+.det{
+	width:auto;
+	padding-left:40px;
+	border-top-style: solid;
+	border-top-color:white;
+	border-top-width:5px;
+	border-bottom-style: solid;
+	border-bottom-color:white;
+	border-bottom-width:5px;
+	border-left-style: none;
+	padding-bottom:30px;
+	padding-top:30px;
+}
+.imf{
+	width: 250px ;
+	height:370px;
+	padding-left:0px;
+	padding-right:0px;
+	display: block;
+    	margin-left: auto;
+    	margin-right: auto;
+	padding-bottom:20px;
+}
+.desc>p{
+	text-indent:1.2em;
+}
+.tit_pag{
+	padding-left:25px;
+}
+}

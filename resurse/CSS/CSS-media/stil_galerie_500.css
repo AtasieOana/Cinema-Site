@@ -1,0 +1,59 @@
+/* Stilizare elemente specifice pagina Galerie pt o latime de maxim 500px */
+
+@media screen and (max-width: 500px){
+
+#gr{
+	grid-template-columns: auto;
+	grid-gap:3px;
+	padding:10px;
+}
+#gr>figure:nth-child(1){
+	grid-area: auto;
+}
+#gr>figure:nth-child(2){
+	grid-area: auto;
+}
+#gr>figure:nth-child(3){
+	grid-area: auto;
+}
+#gr>figure:nth-child(4){
+	grid-area: auto;
+}
+#gr>figure:nth-child(5){
+	grid-area: auto;
+}
+#gr>figure:nth-child(6){
+	grid-area: auto;
+}
+#gr>figure:nth-child(7){
+	grid-area: auto;
+}
+#gr>figure:nth-child(8){
+	grid-area: auto;
+}
+.ag{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#gr figure{
+	transition: none;
+}
+
+#container_animatie{
+  display:none;
+}
+
+#sectiune_animatie{
+	margin-left: 10px;
+	margin-right: 4px;
+}
+
+#sectiune_animatie:after{
+	content:"Animația nu se poate afișa pe această dimensiune. Încercați pe o dimeniune mai mare.";
+	font-size: 13px;
+	color:white;
+}
+
+
+}

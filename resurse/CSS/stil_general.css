@@ -1,0 +1,221 @@
+/* Stilizare elemente specifice din mai multe pagini */
+
+/* resetarea spatierilor din toate paginile */
+
+
+*{ 
+	margin:0px;
+	padding:0px;
+	text-indent:0px;
+}
+
+/* footer din toate paginile */
+
+footer{ 	
+	border-top:solid;
+	border-color:white;
+	border-width:3px;
+	padding-top:5px;
+	padding-bottom:20px;
+	padding-left: 20px;
+	background-color:black;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	bottom: 0;
+	
+}
+
+footer>section ul{
+	list-style-type: none;
+}
+
+footer>section ul>li>a{
+	text-decoration:none;
+	font-family: Georgia, serif;
+	font-size: 15px;
+	color:white;
+}
+
+/* body din toate paginile */
+
+body {
+  background-color: black;
+  background-image: url("../IMAGINI/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; 
+  margin:0;
+}
+
+/* main din toate paginile */
+
+main{
+	padding-top: 5px;
+	padding-bottom: 200px;
+	
+}
+	
+/* titlu principal din header pt toate paginile */
+
+h1{
+	border-bottom:solid;
+	border-color:white;
+	border-width:3px;
+	padding-bottom:30px;
+	background-color:black;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding-top:50px;
+	color:white;
+	padding-left:30px;
+	
+}
+
+.headform,#cul{
+	position:absolute;
+	z-index:10;
+	right: 0;
+	padding-top:40px;
+	border-left:3px solid white;
+	color:white;
+	padding-left:20px;
+	padding-right:20px;
+}
+
+.headform p{
+	margin-bottom:7px;
+}
+
+.headform input{
+	max-width: 145px;
+}
+#cul{
+	border-left:none;
+}
+
+#cul a{
+	display:block;
+	color:white;
+	
+}
+
+/* titlu principal pt fiecare pagina */
+
+.tit{
+	padding-top:10px;
+	color:white;
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight:bold;
+	font-size:24px;
+	padding-left:50px;
+	padding-bottom:15px;
+	
+}
+
+
+/* d_p>p -> paragrafele din pagina "Promotii" si paragrafele din pagina "Despre noi", d_p>ul>li -> lista din pagina "Promotii", par1-> paragraful din pagina "Meniu" si paragraful din pagina "In curand" */
+
+.d_p>p,.d_p>ul>li,.par1{
+	color:white;
+	text-indent:3em;
+	line-height: 1.7em;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	word-spacing: 0.2em;
+	padding-left:20px;
+	text-align:justify;
+	padding-right:10px;
+}
+
+.d_p>ul{
+	list-style-type: square;
+}
+
+/* meniu derulant */
+nav{
+	width:100%;
+	position:fixed;
+	z-index:15;
+	}
+
+ul.menu>li, ul.menu>li>ul.submenu>li{ 
+	font-size:1.2rem;
+	font-weight:bold;
+	height:2.0rem;
+	line-height:2.0rem;
+	text-align:center;		
+	overflow:hidden;
+	position:relative;	
+	text-decoration:none;
+	}
+	
+ul.menu>li{
+	float:left;
+	width:20%;
+	text-decoration:none;
+}
+	
+ul.submenu>li{
+	width:100%;
+	text-decoration:none;
+}
+
+ul.menu>li>a,ul.menu>li>div,ul.submenu>li>a{
+	display:block;
+	height:	100%;
+	text-decoration:none;
+	color:white; 	
+}
+
+ul.menu>li:nth-of-type(even) a{
+	background-image: url("../IMAGINI/bktmenu.jpg");
+}
+
+ul.menu>li:nth-of-type(odd) a{
+	background-image: url("../IMAGINI/bktmenu2.jpg");
+}
+
+ul.menu>li>ul.submenu{
+	position:relative;
+	top:0px; 
+	text-decoration:none;
+}
+
+ul.menu>li>ul.submenu>li
+{
+	border-top:1px solid black; 
+
+}
+ul.menu>li>ul.submenu>li:last-child
+{
+	border-bottom:1px solid black;
+}
+
+ul.menu>li>a:hover, ul.submenu>li>a:hover{
+	background:#ccccff;
+	transition: background 2s linear;
+}
+ul.menu>li:hover{
+	overflow:visible;
+}
+
+ul.menu>li:nth-of-type(even):hover ul.submenu{
+	background-image: url("../IMAGINI/bktmenu.jpg");
+}
+ul.menu>li:nth-of-type(odd):hover ul.submenu{
+	background-image: url("../IMAGINI/bktmenu2.jpg");
+}
+
+.curent{
+	background-image: url("../IMAGINI/curent.jpg") !important;
+	border:ridge !important;
+}
+
+#ravas{
+	background-image: url("../IMAGINI/curent.jpg");
+	color:white;
+	padding-left:50px;
+	padding-top:10px;
+	font-size:18px;
+	min-height:30px;
+}
