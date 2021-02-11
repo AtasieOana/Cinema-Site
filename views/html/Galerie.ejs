@@ -1,0 +1,93 @@
+<!DOCTYPE  html>
+<html lang="ro">
+	<head>
+		<title> GALERIE </title>
+		<meta charset="utf-8">
+		<meta name="keywords" content="Cinema,Sală,Scaune,Galerie,Imagini,Ecran">
+		<meta name="description" content="Galeria oferă o vizualizare a elementelor cinema-ului.">
+		<meta name="author" content="Black Box Cinema" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="shortcut icon" type="image/x-icon" href="/imagini/BBC.ico"/>
+		<link rel="stylesheet" type="text/css" href="/CSS/stil_general.css"/>
+		<link rel="stylesheet" type="text/css" href="/CSS/CSS-media/stil_general_500.css"/>
+		<link rel="stylesheet" type="text/css" href="/CSS/CSS-media/stil_general_700.css"/>
+		<link rel="stylesheet" type="text/css" href="/CSS/stil_galerie.css"/>
+		<link rel="stylesheet" type="text/css" href="/CSS/CSS-media/stil_galerie_500.css"/>
+		<link rel="stylesheet" type="text/css" href="/CSS/CSS-media/stil_galerie_700.css"/>
+		<script src="JAVA/java_pag_curenta.js"></script>	
+	</head>
+	<body>
+		<%- include("../fragmente/header")  %> 
+		<main>
+			<section>
+				<h2 class="tit"> Galerie statică </h2>
+				<div id="gr">
+					<figure class="imagineg">
+						<img class="ag" src="/IMAGINI/G1.jpg" alt="Poza_galerie1" title="Cameră"> 
+						<figcaption class="bg">Cameră</figcaption>
+					</figure>
+					<figure class="imagineg">
+						<img class="ag" src="/IMAGINI/G2.jpg" alt="Poza_galerie2" title="Sală"> 
+						<figcaption class="bg">Sală</figcaption>
+					</figure>
+					<figure class="imagineg">
+						<img class="ag" src="/IMAGINI/G3.jpg" alt="Poza_galerie3" title="Scaune"> 
+						<figcaption class="bg">Scaune</figcaption>
+					</figure>
+					<figure class="imagineg">
+						<img class="ag" src="/IMAGINI/G4.jpg" alt="Poza_galerie4" title="Ecran"> 
+						<figcaption class="bg">Ecran</figcaption>
+					</figure>
+					<figure class="imagineg">
+						<img class="ag" src="/IMAGINI/G5.jpg" alt="Poza_galerie5" title="Sală"> 
+						<figcaption class="bg">Sală</figcaption>
+					</figure>
+					<figure class="imagineg">
+						<img class="ag" src="/IMAGINI/G6.jpg" alt="Poza_galerie6" title="Aparat"> 
+						<figcaption class="bg">Aparat</figcaption>
+					</figure>
+					<figure class="imagineg">
+						<img class="ag" src="/IMAGINI/G7.jpg" alt="Poza_galerie7" title="Scaune"> 
+						<figcaption class="bg">Scaune</figcaption>
+					</figure>
+					<figure class="imagineg">
+						<img class="ag" src="/IMAGINI/G8.jpg" alt="Poza_galerie8" title="Intrare"> 
+						<figcaption class="bg">Intrare</figcaption>
+					</figure>
+				</div>
+			</section>
+			<section id="sectiune_animatie">
+				<h2 class="tit"> Galerie animată </h2>
+				<div id="container_animatie">
+					<div id="animat">
+						<figure class="imagineg">
+							<img class="ag" src="/IMAGINI/GA1.jpg" alt="Sală_animatie" title="Sală"> 
+							<figcaption class="bg">Sală</figcaption>
+						</figure>
+						<figure class="imagineg">
+							<img class="ag" src="/IMAGINI/GA2.jpg" alt="Obiecte_animatie" title="Obiecte"> 
+							<figcaption class="bg">Sală</figcaption>
+						</figure>
+						<figure class="imagineg">
+							<img class="ag" src="/IMAGINI/GA3.jpg" alt="Cinema_animatie" title="Cinema"> 
+							<figcaption class="bg">Cinema</figcaption>
+						</figure>
+						<figure class="imagineg">
+							<img class="ag" src="/IMAGINI/GA4.jpg" alt="Rolă_animatie" title="Rolă"> 
+							<figcaption class="bg">Rolă</figcaption>
+						</figure>
+						<figure class="imagineg">
+							<img class="ag" src="/IMAGINI/GA5.jpg" alt="Cameră_animatie" title="Cameră"> 
+							<figcaption class="bg">Cameră</figcaption>
+						</figure>
+						<figure class="imagineg">
+							<img class="ag" src="/IMAGINI/GA6.jpg" alt="Poza_galerie6" title="Pisica la cinema"> 
+							<figcaption class="bg">Pisica la cinema</figcaption>
+						</figure>
+					</div>
+				</div>
+			</section>
+		</main>
+		<%- include("../fragmente/footer")  %> 
+	</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE  html>
+<html lang="ro">
+	<head>
+		<title> REZERVARE BILET </title>
+		<meta charset="utf-8">
+		<meta name="keywords" content="Cinema,Film,Rezervare,Online,Bilet">
+		<meta name="description" content="La Black Box Cinema îți poți rezerva un loc la film de oriunde prin mediul online.">
+		<meta name="author" content="Black Box Cinema" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="shortcut icon" type="image/x-icon" href="/IMAGINI/BBC.ico"/>
+		<link rel="stylesheet" type="text/css" href="/CSS/stil_general.css"/>
+		<link rel="stylesheet" type="text/css" href="/CSS/CSS-media/stil_general_500.css"/>
+		<link rel="stylesheet" type="text/css" href="/CSS/CSS-media/stil_general_700.css"/>
+		<link rel="stylesheet" type="text/css" href="/CSS/stil_rezervare.css"/>
+		<link rel="stylesheet" type="text/css" href="/CSS/CSS-media/stil_rezervare_500.css"/>
+		<link rel="stylesheet" type="text/css" href="/CSS/CSS-media/stil_rezervare_700.css"/>
+		<link rel="stylesheet" type="text/css" href="/CSS/CSS-media/stil_rezervare_900.css"/>
+	</head>
+	<body>
+		<%- include("../fragmente/header")  %> 
+		<main>
+			<section> 
+				<h2 class="tit">Rezervare bilet</h2>
+				<p class="par1"> Pentru că dorim să ușurăm achiziționarea unui bilet la cinema, Black Box Cinema oferă posibilitatea de a rezerva bilete la orice film disponibil din orice loc. De asemenea, dacă nu sunteți decis în privința filmului pe care doriți să îl vizionați, puteți revedea toate filmele care rulează apăsând butonul de mai jos.</p>
+				<form class="rez">
+					<p>
+						<label>
+							Nume: <input type="text" name="nume" value="" placeholder="Tastează numele...">
+						</label>
+					</p>
+					<p>
+						<label>
+							Prenume: <input type="text" name="prenume" value="" placeholder="Tastează prenumele...">
+						</label>
+					</p>
+					<p>
+						<label>
+							Film: <input type="text" name="film" value="" placeholder="Tastează filmul...">
+						</label>
+					</p>
+					<p>
+						<label>
+							Email: <input type="text" name="email" value=""  size="50" placeholder="Exemplu: user123@yahoo.com">
+						</label>
+					</p>
+					<p>		
+					<input type="submit" value="Rezervare">
+					</p>
+				</form>
+			</section>
+		</main>
+		<%- include("../fragmente/footer")  %> 
+	</body>
+</html>
+	

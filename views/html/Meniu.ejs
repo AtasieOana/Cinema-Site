@@ -1,0 +1,97 @@
+<!DOCTYPE  html>
+<html lang="ro">
+	<head>
+		<title> MENIU </title>
+		<meta charset="utf-8">
+		<meta name="keywords" content="Cinema,Film,Meniu,Gustare,Informații">
+		<meta name="description" content="Pagina oferă informații clienților despre produsele pe care pot să le achiziționeze la cinema.">
+		<meta name="author" content="Black Box Cinema" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="shortcut icon" type="image/x-icon" href="/IMAGINI/BBC.ico"/>
+		<link rel="stylesheet" type="text/css" href="/CSS/stil_general.css"/>
+		<link rel="stylesheet" type="text/css" href="/CSS/CSS-media/stil_general_500.css"/>
+		<link rel="stylesheet" type="text/css" href="/CSS/CSS-media/stil_general_700.css"/>
+		<link rel="stylesheet" type="text/css" href="/CSS/stil_meniu.css"/>	
+		<link rel="stylesheet" type="text/css" href="/CSS/CSS-media/stil_meniu_500.css"/>
+		<link rel="stylesheet" type="text/css" href="/CSS/CSS-media/stil_meniu_700.css"/>
+		<script src="JAVA/java_pag_curenta.js"></script>
+	</head>
+	<body>
+		<%- include("../fragmente/header")  %> 
+		<main>
+			<section> 
+				<h2 class="tit">Meniu Black Box Cinema</h2>
+				<p class="par1">Pentru că noi, cei de la Black Box Cinema dorim să ai parte de o experiență cât mai plăcută, îți propunem o varietate de alegeri în ceea ce privește gustarea din timpul filmului.</p>
+			</section>
+			<table>
+					<caption>MENIU</caption>
+					<thead>
+						<tr>
+							<th>Nume</th>
+							<th colspan="3">Mărime</th>
+							<th>Preț</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Nachos</td>
+							<td>Mică</td>
+							<td>-</td>
+							<td>Mare</td>
+							<td>10/15 lei</td>
+						</tr>
+						<tr>
+							<td>Popcorn</td>
+							<td>Mică</td>
+							<td>Medie</td>
+							<td>Mare</td>
+							<td>10/15/20 lei</td>
+						</tr>
+						<tr>
+							<td>Alune</td>
+							<td>Mică</td>
+							<td>Medie</td>
+							<td>-</td>
+							<td>5/10 lei</td>
+						</tr>
+						<tr>
+							<td>Cola</td>
+							<td>0,33 L</td>
+							<td>0,5 L</td>
+							<td>-</td>
+							<td>5/7 lei</td>
+						</tr>
+						<tr>
+							<td>Sprite</td>
+							<td>0,33 L</td>
+							<td>0,5 L</td>
+							<td>-</td>
+							<td>5/7 lei</td>
+						</tr>
+						<tr>
+							<td>Fanta</td>
+							<td>0,33 L</td>
+							<td>0,5 L</td>
+							<td>-</td>
+							<td>5/7 lei</td>
+						</tr>
+						<tr>
+							<td>Apă plată</td>
+							<td>0,5 L</td>
+							<td>1 L</td>
+							<td>-</td>
+							<td>4/8 lei</td>
+						</tr>
+						<tr>
+							<td>Apă minerală</td>
+							<td>0,5 L</td>
+							<td>1 L</td>
+							<td>-</td>
+							<td>4/8 lei</td>
+						</tr>
+					</tbody>
+				</table>
+		</main>
+		<%- include("../fragmente/footer")  %> 
+	</body>
+</html>

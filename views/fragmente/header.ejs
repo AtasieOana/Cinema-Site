@@ -1,0 +1,61 @@
+<header>
+	<nav id="meniu_sus">
+		<ul class="menu">
+			<li class="p"> <a href="/"><i lang="en">HOME</i></a>
+				<ul class="submenu">
+					
+					<li><a href="/In_curand">ÎN CURÂND</a></li>
+					<li><a href="/Meniu">MENIU</a></li>
+				</ul>
+			</li>
+			<li><a href="/Program">PROGRAM</a></li>
+			<li class="p"><a href="/Despre_noi">DESPRE NOI</a>
+				<ul class="submenu">
+					<li><a href="/Galerie">GALERIE</a></li>
+				</ul>
+			</li>
+			<li class="p"><a href="/promotii">PROMOȚII</a></li>
+			<li class="p"><a href="/cont">CONT</a></li>
+		</ul>
+	</nav>
+	<% if(!locals.username) {  %>
+		
+		<form method="post" action="/login" class="headform">
+			<p>
+				<label>
+					User: <input type="text" name="username" value="">
+				</label>
+			</p>
+			<p>
+				<label>
+					Parola: <input type="password" name="parola" value="" autocomplete="on">
+				</label>
+			</p>	
+			<p>
+				<input type="submit" value="Înregistrare">
+			</p>
+		</form>
+	<% }
+	else { %>
+	<span id="cul">Utilizatorul <%= locals.username  %> este logat
+	<a href="/logout">Logout</a>
+	</span> 
+	<% } %>
+	<h1> 	
+		<span>B</span>
+		<span>L</span>
+		<span>A</span>
+		<span>C</span>
+		<span>K </span>
+		<span>B</span>
+		<span>O</span>
+		<span>X</span>
+		<span>C</span>
+		<span>I</span>
+		<span>N</span>
+		<span>E</span>
+		<span>M</span>
+		<span>A</span> 
+	</h1>
+
+</header>

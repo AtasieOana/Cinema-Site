@@ -1,0 +1,52 @@
+<!DOCTYPE  html>
+<html lang="ro">
+	<head>
+		<title> Black Box Cinema </title>
+		<meta charset="utf-8">
+		<meta name="keywords" content="Cinema,Film,Premiera,Nou,Detalii">
+		<meta name="description" content="Black Box Cinema este un loc ideal pentru a viziona un film cu o tehnologie de ultimă generație, ecrane adaptate fiecărei săli, locuri confortabile și o gamă largă de filme">
+		<meta name="author" content="Black Box Cinema" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="shortcut icon" type="image/x-icon" href="/IMAGINI/BBC.ico"/>
+		<link rel="stylesheet" type="text/css" href="/CSS/stil_general.css"/>
+		<link rel="stylesheet" type="text/css" href="/CSS/CSS-media/stil_general_500.css"/>
+		<link rel="stylesheet" type="text/css" href="/CSS/CSS-media/stil_general_700.css"/>
+		<link rel="stylesheet" type="text/css" href="/CSS/stil_animatie.css"/>
+		<link rel="stylesheet" type="text/css" href="/CSS/CSS-media/stil_animatie_500.css"/>
+		<link rel="stylesheet" type="text/css" href="/CSS/CSS-media/stil_animatie_700.css"/>
+		<link rel="stylesheet" type="text/css" href="/CSS/stil_index.css"/>
+		<link rel="stylesheet" type="text/css" href="/CSS/CSS-media/stil_index_500.css"/>
+		<link rel="stylesheet" type="text/css" href="/CSS/CSS-media/stil_index_700.css"/>	
+		<script src="JAVA/java_pag_curenta.js"></script>
+	</head>
+	<body>
+		<%- include("../fragmente/header")  %> 
+		<main>
+			<section id="home_index"> 
+				<h2 class="tit">Cele mai noi filme</h2>
+				<div id="container_home">
+					<figure class="imagine">
+						<img class="varp1" src="/IMAGINI/The_Call_of_the_Wild.jpg" alt="Chemarea străbunilor" title="Chemarea străbunilor"> 
+						<figcaption class="b"><a class="l2" href="/Chemarea_strabunilor">Află mai multe</a></figcaption>
+					</figure>
+					<figure class="imagine">
+						<img class="varp1" src="/IMAGINI/Sonic_The_Hedgehog.jpg" alt="Sonic The Hedgehog" title="Sonic The Hedgehog"> 
+						<figcaption class="b"><a class="l2" href="/Sonic_The_Hedgehog">Află mai multe</a></figcaption>
+					</figure>
+					<figure class="imagine">
+						<img class="varp1" src="/IMAGINI/Dolittle.jpg" alt="Dolittle" title="Dolittle"> 
+						<figcaption class="b"><a class="l2" href="/Dolittle">Află mai multe</a></figcaption>
+					</figure>
+					<figure class="imagine">
+						<img class="varp1" src="/IMAGINI/10_zile_fara_mama.jpg" alt="10 zile fară mama" title="10 zile fară mama"> 
+						<figcaption class="b"><a class="l2" href="/10_Zile_fara_mama">Află mai multe</a></figcaption>
+					</figure>
+				</div>
+				<div id="proiect">
+				&#9830; Site-ul reprezintă un proiect școlar.
+				</div>
+			</section>
+		</main>
+		<%- include("../fragmente/footer")  %>
+	</body>
+</html>

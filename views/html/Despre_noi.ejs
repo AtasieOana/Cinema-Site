@@ -1,0 +1,86 @@
+<!DOCTYPE  html>
+<html lang="ro">
+	<head>
+		<title> DESPRE NOI </title>
+		<meta charset="utf-8">
+		<meta name="keywords" content="Cinema,Film,Informații,Detalii,Atmosferă,Calitate">
+		<meta name="description" content="Aceasta este o pagină din care poți află mai multe despre Black Box Cinema.">
+		<meta name="author" content="Black Box Cinema" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="shortcut icon" type="image/x-icon" href="/IMAGINI/BBC.ico"/>
+	    <link rel="stylesheet" type="text/css" href="/CSS/stil_general.css"/>
+		<link rel="stylesheet" type="text/css" href="/CSS/CSS-media/stil_general_500.css"/>
+		<link rel="stylesheet" type="text/css" href="/CSS/CSS-media/stil_general_700.css"/>
+		<link rel="stylesheet" type="text/css" href="/CSS/stil_despre_noi.css"/>
+		<script src="JAVA/ejs.min.js"></script>
+		<script src="JAVA/script.js"></script>
+		
+	</head>
+	<body>
+		<%- include("../fragmente/header")  %> 
+		<main>
+			<section class="d_p">
+				<h2 class="tit">DESPRE NOI</h2>
+				<p> Cu ecrane adaptate tuturor cerințelor, scaune confortabile, calitate ridicată a sunetului și imaginilor, cât un și personalul prietenos, Black Box Cinema face vizionarea filmului extrem de plăcută. Black Box Cinema este, de asemenea, locul în care se regăsesc multe oferte speciale, incluzând promoțiile care sunt prezentate în pagina corespunzătoare lor.</p>
+				<p> Ne-am gândit să creăm un loc plăcut de petrecere a timpului liber, un loc în care să te poți bucura de filme într-o atmosfera cât mai relaxată, ca și cum ai fi la tine acasă.</p>
+				<div id="aplicatie">
+					<div id="but">
+						<button type="button" id="minim">Afișează minimul duratelor</button>
+						<button type="button" id="sort">Sortează filmele după dată</button>
+						<button type="button" id="filt">Filtrează filmele după nume</button>
+						<button type="button" id="act">Actualizeză data de lansare</button>
+						<button type="button" id="o_act">Oprește actualizarea</button>
+						<button type="button" id="sort_task1">Sortează după mai multe criterii</button>
+						<button type="button" id="sort_task2">Sortează după nr. de genuri</button>
+						<button type="button" id="sort_task3">Elimină filmele cu campuri vide</button>
+						<button type="button" id="res">Resetează</button>
+						
+						<div id="gen_sterg"> Ce gen de film doriți să ștergeți?
+							<p>
+							<label>Horror
+								<input id="g1" name="sterg" value="horror" type="radio"/>
+							</label>
+							</p>
+							<p>
+							<label>Ficțiune
+								<input id="g2" name="sterg" value="ficțiune" type="radio"/>
+							</label>
+							</p>
+							<p>
+							<label>Thriller
+								<input id="g3" name="sterg" value="thriller" type="radio"/>
+							</label>
+							</p>
+							<p>
+							<label>Comedie
+								<input id="g4" name="sterg" value="comedie" type="radio"/>
+							</label>
+							</p>
+							<p>
+							<label>Dramă
+								<input id="g5" name="sterg" value="dramă" type="radio"/>
+							</label>
+							</p>
+							<p>
+							<label>Aventură
+								<input id="g6" name="sterg" value="aventură" type="radio"/>
+							</label>
+							</p>
+						</div>
+						<button type="button" id="ls">Șterge filme</button>
+						<div id="cauta"> Caută un film:
+						<p>
+							<label>
+								<input id="film_cautat" type="text" value="">
+							</label>
+						</p>
+						<button type="button" id="c">Caută</button>
+					</div>
+				</div>
+				<div class="afis" id="afisare_template">
+				</div>
+			</section>
+		</main>
+		<%- include("../fragmente/footer")  %> 
+	</body>
+</html>

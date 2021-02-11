@@ -1,0 +1,81 @@
+<!DOCTYPE  html>
+<html lang="ro">
+	<head>
+		<title> INTRĂ ÎN CONT </title>
+		<meta charset="utf-8">
+		<meta name="keywords" content="Cinema,Film,Cont,Logare">
+		<meta name="description" content="Black Box Cinema permite posibilitatea de creare a unui cont pentru a comunica mai ușor cu cinemaul sau pentru a rezerva online un bilet.">
+		<meta name="author" content="Black Box Cinema" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="shortcut icon" type="image/x-icon" href="/IMAGINI/BBC.ico"/>
+		<link rel="stylesheet" type="text/css" href="/CSS/stil_general.css"/>
+		<link rel="stylesheet" type="text/css" href="/CSS/CSS-media/stil_general_500.css"/>
+		<link rel="stylesheet" type="text/css" href="/CSS/CSS-media/stil_general_700.css"/>
+		<link rel="stylesheet" type="text/css" href="/CSS/stil_cont.css"/>
+		<script src="JAVA/java_pag_curenta.js"></script>
+	</head>
+	<body>
+		<%- include("../fragmente/header")  %> 
+		</header>
+		<main>
+			<section> 
+				<h2 class="tit">Crează cont</h2>
+				<form class="formular" action="/inreg" method="post" >
+					<p>
+						<label>
+							Username: <input type="text" name="username" value="user123">
+						</label>
+					</p>
+					<p>
+						<label>
+							Nume: <input type="text" name="nume" value="" placeholder="Tastează numele...">
+						</label>
+					</p>
+					<p>
+						<label>
+							Prenume: <input type="text" name="prenume" value="" placeholder="Tastează prenumele...">
+						</label>
+					</p>
+					<p id="cf"> Categoriile de film urmărite:
+						<label>
+							Comedie <input type="checkbox" name="categorii" value="comedie">
+						</label>
+						<label>
+							De dragoste <input type="checkbox" name="categorii" value="dragoste">
+						</label>
+						<label>
+							Horror <input type="checkbox" name="categorii" value="horror">
+						</label>
+						<label>
+							Dramă <input type="checkbox" name="categorii" value="drama">
+						</label>
+						<label>
+							Ficțiune <input type="checkbox" name="categorii" value="fictiune">
+						</label>
+
+					</p>
+					<p>
+						<label>
+							Parola: <input type="password" name="parola" value="">
+						</label>
+					</p>
+					<p>
+						<label>
+							Reintroduceți parola: <input type="password" name="verif_parola" value="">
+						</label>
+					</p>
+					<p>
+						<label>
+							Email: <input type="text" name="email" value=""  size="50" placeholder="Exemplu: user123@yahoo.com">
+						</label>
+					</p>
+					<p>		
+					<input type="submit" value="Submit" >
+					</p>
+				</form>
+			</section>
+		</main>
+		<%- include("../fragmente/footer")  %>
+	</body>
+</html>
+	

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Eroare 404</title>
+	<meta charset="utf-8">
+	<meta name="author" content="Black Box Cinema" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="shortcut icon" type="image/x-icon" href="/imagini/BBC.ico"/>
+	<link rel="stylesheet" type="text/css" href="/CSS/stil_general.css"/>
+	<link rel="stylesheet" type="text/css" href="/CSS/CSS-media/stil_general_500.css"/>
+	<link rel="stylesheet" type="text/css" href="/CSS/CSS-media/stil_general_700.css"/>
+	<link rel="stylesheet" type="text/css" href="/CSS/stil_404.css"/>
+	<link rel="stylesheet" type="text/css" href="/CSS/CSS-media/stil_404_500.css"/>
+	<link rel="stylesheet" type="text/css" href="/CSS/CSS-media/stil_404_700.css"/>
+	<link rel="stylesheet" type="text/css" href="/CSS/CSS-media/stil_404_1150.css"/>
+</head>
+<body>
+<%- include("../fragmente/header")  %> 
+<main>
+	<section>
+		<h2 class="tit">PAGINA NU A FOST GĂSITĂ. EROARE 404.</h2>
+		<span id="e">
+			<img src="/IMAGINI/404.jpg" alt="Eroare 404" title="Eroare 404"> 
+			<span>
+				<p> Ne cerem scuze, nu putem găsi pagina pe care o cauți. </p> 
+				<p> Motive posibile:</p>
+				<ul id="mot">
+					<li>Pagina căutată a fost mutată sau ștearsă.</li>
+					<li>Link-ul introdus este unul vechi.</li>
+					<li>Link-ul introdus nu este scris complet corect.</li>
+				</ul>
+				<p> Pentru a găsi paginile valide, încercați să utilizați meniul site-ului. </p>
+			</span>
+		</span>
+	</section>
+</main>
+<%- include("../fragmente/footer")  %> 
+
+</body>
+</html>  
