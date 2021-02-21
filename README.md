@@ -12,4 +12,4 @@ Website of a Cinema created with HTML, CSS, JAVASCRIPT and Node.js
 
 #### The site is responsive - phone, tablet or desktop
 
-![alt text]("D:\Facultate\CV\TW1.PNG")
+![alt text](D:\Facultate\CV\TW1.PNG)
