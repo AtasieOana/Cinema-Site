@@ -8,6 +8,6 @@ Website of a Cinema created with HTML, CSS, JAVASCRIPT and Node.js
 * Cinema menu
 * Page 404
 * Sign In, Sign Out page
+* Photo gallery
 
-
-* Stylize the application with CSS and build it so that the design is responsive;
+#### The site is responsive - phone, tablet or desktop
