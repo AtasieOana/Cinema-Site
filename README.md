@@ -1,5 +1,4 @@
 # Cinema Site
------
 Website of a Cinema created with HTML, CSS and JAVASCRIP
 
 ### Cinema Web Application
