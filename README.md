@@ -1,5 +1,5 @@
 # Cinema Site
-Website of a Cinema created with HTML, CSS, JAVASCRIPT and Node.js
+**Website of a Cinema created with HTML, CSS, JAVASCRIPT and Node.js**
 
 ## Site content
 * Home page
