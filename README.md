@@ -12,6 +12,8 @@
 
 #### The site is responsive - phone, tablet or desktop
 
+## Project opening
+
 ## What the application looks like
 
 [![TW1.png](https://i.postimg.cc/3xW3P1TH/TW1.png)](https://postimg.cc/fVn4dxyH)
