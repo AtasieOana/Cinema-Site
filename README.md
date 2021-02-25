@@ -13,7 +13,7 @@
 #### The site is responsive - phone, tablet or desktop
 
 ## Project opening
-Opening the project, if Node.js is installed, is done by opening the Power Shell corresponding to the folder where the entire project is located and inserting the following instruction: 
+Opening the project, if Node.js is installed, is done by opening the PowerShell corresponding to the folder where the entire project is located and inserting the following instruction: 
 ```
 node index.js
 ```
